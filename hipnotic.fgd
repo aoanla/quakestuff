@@ -73,10 +73,7 @@
 	noise(string) : "noise"
 	touch(string) : "self.touch"
 ]
-@PointClass base(Appearflags) = info_intermission : "Intermission camera"
-[
-	mangle(string) : "Camera angle (Pitch Yaw Roll)"
-]
+
 
 //
 // items
@@ -358,7 +355,7 @@
 [ 
 	speed(integer) : "Speed" : 40
 ]
-@PointClass base(Appearflags) size(0 0 2, 32 32 66) model({ "path": ":maps/b_explob.bsp" } = misc_explobox : "Large nuclear container" []
+@PointClass base(Appearflags) size(0 0 2, 32 32 66) model({ "path": ":maps/b_explob.bsp" }) = misc_explobox : "Large nuclear container" []
 @PointClass base(Appearflags) size(0 0 2, 32 32 34) model({ "path": ":maps/b_exbox2.bsp" }) = misc_explobox2 : "Small nuclear container" []
 
 // redone in hipnotic entities
@@ -639,8 +636,8 @@
 
 //
 // Worldcraft FGD patch - Scourge of Armagon entities (v1.02 - march 21, 1997)
-// Worldcraft™ © 1996 Ben Morris
-// Scourge of Armagon™ © 1997 id Software, Inc.
+// WorldcraftÂ™ Â© 1996 Ben Morris
+// Scourge of ArmagonÂ™ Â© 1997 id Software, Inc.
 //
 
 //
