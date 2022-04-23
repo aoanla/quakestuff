@@ -26,7 +26,7 @@
 	light(integer) : "Default light level"
 	_sunlight(integer) : "Sunlight"
 	_sun_mangle(string) : "Sun mangle (Yaw pitch roll)"
-    grem_dup_health(integer) : "Neg health at which grems split, default -200" : -200
+    grem_dup_health(integer) : "Neg health at which gorging grems split, default -200 (closer to zero means they split faster when gorging)" : -200
     grem_steal_try_prob(float) : "Probability that a gremlin melee will try to steal, default 0.4" : 0.4
     grem_steal_succ_prob(float) : "Probability that a gremlin steal attempt will succeed, default 0.5" : 0.5
     max_gremlins(integer) : "Maximum gremlins on map, ever. Negative values remove limit entirely! (default 0 == 'thrice starting gremlins' as a special case)" : 0
